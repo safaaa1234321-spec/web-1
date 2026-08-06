@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: blue;
+    width: 200px;
+    height: 1oopx;
+    margin: 20px;
+    overflow: hidden;
+    
+}
+.child{
+    background-color: rgba(255, 0, 187, 0,2);
+    width: 150px;
+    height: 150px;
+
+}
+button{
+    margin: 10px;
+    padding: 7px;
+    cursor: pointer;
+    background-color: green;
+    border: none;
+    color: wheat;
+    transition-delay: 0,3s;
+}
+
+button:hover{
+    background-color: white;
+    border: none;
+    color: brown;
+}
+
+button:active{
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: rgb(255, 252, 252);
+}

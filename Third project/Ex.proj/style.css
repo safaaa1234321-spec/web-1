@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   background-color: silver;
+   margin: 0px auto;
+   padding: 15px;
+   max-width: 950px;
+}
+.top_nav{
+    margin-bottom: 10px;
+    height: 150px;
+    background-color: green;
+}
+.side_nav{
+    height: 300px;
+    background-color: rgb(0, 225, 255);
+    display: inline-block;
+    width: 200px;
+    min-width: 150px;
+    margin: 0 0 20px 0;
+}
+.main{
+    height: 400px;
+    background-color: red;
+    display: inline-block;
+    width: 700px;
+    padding: 14px;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin: 0 0 16px;
+}
+.sub_content{
+    background-color: yellow;
+    height: 200px;
+    width: 210px;
+    display: inline-block;
+}
+#advertisement{
+    height: 120px;
+    background-color: purple;
+    width: 100%;
+}
+.row{
+    display: inline-block;
+    gap: 25px;
+    padding-bottom: 30px;
+
+}
